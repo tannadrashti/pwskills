@@ -1,0 +1,30 @@
+Comments in HTML server the purpose of adding non-rendered annotations or explanations within the HTML code. They are
+used to provide information about the structure, purpose, or notes about specific elements or sections of your HTML
+document. Comments are ignored by web browsers and are solely for human readers and developers.
+
+Here's how to use comments in an HTML document:
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Web Page</title>
+</head>
+
+<body>
+    <!-- This is a comment -->
+    <h1>Welcome to My Web Page</h1>
+
+    <p>This is some content on the page.</p>
+
+    <!--
+    This is a
+    multi-line
+    comment
+    -->
+
+    <p>More content here.</p>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+Tag:
+
+ A tag is a keyword enclosed in angle brackets (< and>) that specifies how a specific element on a web page should be
+    formatted or behave.
+
+    Tags are used to define the beginning and end of an element. They often come in pairs: an opening tag and a closing
+    tag.
+
+    Opening tags typically contain the element's name, while closing tags contain the same name with a forward slash (/)
+    before it.
+
+    Tags are not case-sensitive in HTML, but it's a best practice to write them in lowercase for consistency.
