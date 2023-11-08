@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-External</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: gray;
+        }
+        .internal{
+            color:antiquewhite;
+        }
+        .inline-internal{
+            color:pink;
+        }
+        .internal-external{
+            color: blue;
+        }
+        .inline-internal-external{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div style="color: red;">Inline</div>
+    <div class="internal">Internal</div>
+    <div class="external">External</div>
+    <div style="color: yellow;" class="inline-internal">Inline + Internal</div>
+    <div class="internal-external int__external">Internal + External</div>
+    <div style="color: brown;" class="inline-internal-external">Inline + Internal + External</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.external {
+    color: black;
+}
+
+.int__external {
+    color: green;
+}
+
+.inline-internal-external {
+    color: aqua;
+}
