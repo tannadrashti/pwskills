@@ -1,0 +1,46 @@
+justify-content: 
+
+This defines the alignment along the main axis. 
+It helps distribute extra free space leftover when either all the flex items on a line are inflexible,
+ or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
+
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+
+align-items:
+
+This defines the default behavior for how flex items are laid out along the cross axis on the current line. 
+Think of it as the justify-content version for the cross-axis (perpendicular to the main-axis).
+
+.container {
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+}
+
+gap:
+
+The gap property explicitly controls the space between flex items. 
+It applies that spacing only between items not on the outer edges.
+
+.container {
+  display: flex;
+  ...
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+flex-wrap:
+
+The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines.
+ If wrapping is allowed, it sets the direction that lines are stacked.
+
+ flex-direction:
+
+ The flex-direction property is a sub-property of the Flexible Box Layout module. 
+ It establishes the main-axis, thus defining the direction flex items are placed in the flex container.
+
+.element {
+  flex-direction: column-reverse;
+}

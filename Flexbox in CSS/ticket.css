@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.right {
+    width: 50%;
+    height: auto;
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+}
+
+.left .logo>img {
+    margin: 5px;
+}
+
+.left .nav-items>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+.nav-items {
+    margin: 5px 30px;
+}
+
+.nav-items>ul {
+    gap: 15px;
+}
+
+ul.nav-list>li {
+    margin: 2px 10px;
+
+}
+
+ul.btn-list>li {
+    margin: 5px 5px;
+}
+
+ul.btn-list>li>button.orange {
+    padding: 5px 15px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+ul.btn-list>li>button.transparent {
+    padding: 5px 15px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    margin: 0 30px
+}
+
+h1.title {
+    font-size: 30px;
+}
+
+p.sub-title {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+p.sub-title>span {
+    margin: 0 10px 30px 0;
+}
+
+.sub-title>span.green-text {
+    color: green;
+}
+
+.sub-title>span.orange-text {
+    color: orange;
+}
+
+.sub-title>span.blue-text {
+    color: blue;
+}
+
+div.choose-btn button {
+
+
+    gap: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+div.choose-btn img {
+    margin-right: 5px;
+    width: 20px;
+}
+
+div.choose-btn>button.blue-btn {
+    background-color: blue;
+    color: white;
+}
+
+div.choose-btn>button.transparent-btn {
+    background: transparent;
+    border: 1px solid black;
+}
+
+div.journey-details {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    gap: 10px;
+}
+
+div.journey-details img.departure {
+    width: 40px;
+    height: 35px;
+}
+
+div.journey-details .card-1 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 25px 45px;
+    align-items: center;
+}
+
+div.journey-details .card-2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 25px 45px;
+    align-items: center;
+}
+
+div.journey-details .details {
+    margin: 0px 10px;
+}
+
+div.journey-details .details .dropdown {
+    margin: 0px 0px 3px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.journey-details .arrow {
+    margin: 0px 60px 0px 60px;
+}
+
+div.journey-details .threedot {
+    margin: 0px 10px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.journey-details .threedot img.widgets {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+button.green-btn {
+    margin: 30px 0px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 0;
+}
+
+button.green-btn>img {
+    width: 20px;
+    height: 20px;
+
+}

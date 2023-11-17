@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 1, 65);
+}
+
+.pricing-section {
+    padding: 50px;
+    justify-content: center;
+    background-color: rgba(243, 235, 235, 0.925);
+    border: 2px solid lightseagreen;
+    margin: 100px;
+}
+
+.card {
+    display: flex;
+    gap: 35px;
+}
+
+.card-1 {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 7px;
+    box-shadow: 6px 20px 20px 1px rgba(0, 0, 0, 0.19);
+    text-align: justify;
+}
+
+.card-2 {
+    background-color: rgb(18, 1, 65);
+    width: 250px;
+    height: 350px;
+    border-radius: 7px;
+    box-shadow: 6px 20px 20px 1px rgba(0, 0, 0, 0.19);
+    color: white;
+}
+
+.card-2>button {
+    background-color: white;
+    color: rgb(18, 1, 65);
+    font-weight: bolder;
+}
+
+.card-2 .plan-name {
+    margin: 30px 30px 0 50px;
+}
+
+.card-3 {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 7px;
+    box-shadow: 6px 20px 20px 1px rgba(0, 0, 0, 0.19);
+
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.plan-name {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 50px 0 50px;
+}
+
+.plan-for {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 50px 10px 50px;
+}
+
+.pricing {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 50px 10px 50px;
+}
+
+.features {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 20px 2px 50px;
+}
+
+.button {
+    padding: 15px;
+    margin: 30px 50px 0 50px;
+    width: 150px;
+    background-color: rgb(18, 1, 65);
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+}
