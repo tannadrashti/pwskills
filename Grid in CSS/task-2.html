@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task-2</title>
+        <style>
+            .container {
+                display: grid;
+                grid-gap: 10px;
+                grid-template-columns: 100px 100px 100px;
+            }
+            .box{
+                background-color: bisque;
+                color: #fff;
+                border-radius: 5px;
+                padding: 20px;
+                font-size: 150%;
+                color: black;
+            }
+            .box-a{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row: 1;
+            }
+            .box-b{
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box box-a">A</div>
+            <div class="box box-b">B</div>
+            <div class="box box-c">C</div>
+            <div class="box box-d">D</div>
+        </div>
+    </body>
+</html>

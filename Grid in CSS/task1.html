@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task 1</title>
+        <style>
+            .img-gallery{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 250px);
+                gap: 20px;
+                padding: 20px;
+            }
+            .img-1{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            .img-2{
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 3;
+            }
+            .img-3{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            .img-4{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 4;
+            }
+            .img-5{
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+            .img-6{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 4;
+            }
+            img {
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="img-gallery">
+            <div class="img-1">
+                <img src="../img/img1.jpg" alt="image">
+            </div>
+            <div class="img-2">
+                <img src="../img/img2.jpg" alt="image">
+            </div>
+            <div class="img-3">
+                <img src="../img/img3.jpg" alt="image">
+            </div>
+            <div class="img-4">
+                <img src="../img/img4.jpg" alt="image">
+            </div>
+            <div class="img-5">
+                <img src="../img/img5.jpg" alt="image">
+            </div>
+            <div class="img-6">
+                <img src="../img/img6.jpg" alt="image">
+            </div>
+        </div>
+    </body>
+</html>
