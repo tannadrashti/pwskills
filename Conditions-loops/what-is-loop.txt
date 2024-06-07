@@ -1,0 +1,96 @@
+Loops in JavaScript are used to execute a block of code repeatedly until a specified condition is met. They are essential for automating repetitive tasks and iterating over collections of data.
+
+There are several types of loops in JavaScript:
+
+1. **for loop**: It repeats a block of code a specified number of times.
+
+   ```javascript
+   for (initialization; condition; increment/decrement) {
+       // code to be executed
+   }
+   ```
+
+   Example:
+
+   ```javascript
+   for (let i = 0; i < 5; i++) {
+       console.log(i);
+   }
+   ```
+
+2. **while loop**: It repeats a block of code as long as a specified condition is true.
+
+   ```javascript
+   while (condition) {
+       // code to be executed
+   }
+   ```
+
+   Example:
+
+   ```javascript
+   let i = 0;
+   while (i < 5) {
+       console.log(i);
+       i++;
+   }
+   ```
+
+3. **do...while loop**: It is similar to the while loop, but it always executes the block of code at least once, even if the condition is false.
+
+   ```javascript
+   do {
+       // code to be executed
+   } while (condition);
+   ```
+
+   Example:
+
+   ```javascript
+   let i = 0;
+   do {
+       console.log(i);
+       i++;
+   } while (i < 5);
+   ```
+
+4. **for...in loop**: It iterates over the properties of an object.
+
+   ```javascript
+   for (variable in object) {
+       // code to be executed
+   }
+   ```
+
+   Example:
+
+   ```javascript
+   const person = {
+       name: 'John',
+       age: 30,
+       city: 'New York'
+   };
+
+   for (let key in person) {
+       console.log(`${key}: ${person[key]}`);
+   }
+   ```
+
+5. **for...of loop**: It iterates over the values of an iterable object (e.g., arrays, strings, etc.).
+
+   ```javascript
+   for (variable of iterable) {
+       // code to be executed
+   }
+   ```
+
+   Example:
+
+   ```javascript
+   const fruits = ['apple', 'banana', 'orange'];
+   for (let fruit of fruits) {
+       console.log(fruit);
+   }
+   ```
+
+Each type of loop in JavaScript has its own use case, and choosing the right one depends on the specific requirements of your code. Loops are essential for iterating over data, performing calculations, and executing repetitive tasks efficiently.
