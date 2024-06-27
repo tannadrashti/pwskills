@@ -1,0 +1,27 @@
+Operators in JavaScript are categorized based on the number of operands they required into the
+
+following groups:
+ Unary operators Unary operators operate on a single operand
+ Binary operators Binary operators operate on two operands.
+
+ Binary operators in JavaScript are:
+
++
+-
+*
+/
+%
+==
+===
+!=
+!==
+>
+<
+>=
+<=
+&&
+||
+
+Unary operators in JavaScript are:
+
+++, --, +, -,!,~

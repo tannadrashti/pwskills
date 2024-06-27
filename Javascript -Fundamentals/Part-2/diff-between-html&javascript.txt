@@ -1,0 +1,55 @@
+Javascript:
+
+1. Programming Language:JavaScript is a high-level programming language used for adding interactivity
+and functionality to web pages.
+
+2. JavaScript allows you to create dynamic elements and behaviors on a webpage. For
+example, you can validate form inputs, create animations, or update content in real-time based on user
+actions.
+
+3. JavaScript includes variables, data types, and control structures like loops and
+conditionals, enabling you to create complex logic and algorithms.
+
+4. JavaScript runs in web browsers, making it a client-side technology. It executes on the user's
+device, enabling real-time user interactions.
+
+HTML:
+1. HTML is a markup language used for structuring and presenting content on web pages.
+
+2. HTML defines the static structure of a webpage, including headings, paragraphs, lists, links,
+and images.
+
+3. HTML uses tags (e.g., <div>, <p>, <a>) to create elements that structure the content and
+provide semantic meaning.
+
+4. HTML's primary role is to define the content's structure and semantics, which browsers
+render as a web page.
+
+1. Programming Language:
+
+Dynamic Behavior:
+
+Variables and Logic:
+
+Client-Side:
+
+Markup
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive Web Page</title>
+<script>
+// JavaScript function to change the color of a text when clicked
+function changeColor() {
+var textElement = document.getElementById("myText");
+textElement.style.color = "blue";
+}
+</script>
+</head>
+<body>
+<h1>Welcome to My Interactive Web Page</h1>
+<p>This is a sample webpage with a <span id="myText"
+onclick="changeColor()">clickable text</span>.</p>
+</body>
+</html>
