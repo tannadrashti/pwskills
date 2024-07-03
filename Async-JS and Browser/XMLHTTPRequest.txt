@@ -1,0 +1,28 @@
+The XMLHttpRequest object is an API provided by web browsers that enables JavaScript to make HTTP requests to servers. 
+It can be used to request data from a URL without having to refresh the entire page, which helps in building more dynamic and interactive web applications.
+
+How XMLHttpRequest is Used in AJAX
+In AJAX, the XMLHttpRequest object is used to communicate with a server, typically in the following steps:
+
+
+1. Create an Instance:
+
+Create an instance of the XMLHttpRequest object.
+
+2. Initialize the Request:
+
+Use the open method to specify the request type (GET, POST, etc.), the URL, 
+and whether the request should be asynchronous (true or false).
+
+3. Set up Callback Functions:
+
+Assign functions to handle the response. The primary ones are onload for successful requests and onerror for 
+network errors.
+
+4. Send the Request:
+
+Use the send method to send the request to the server.
+
+5. Handle the Response:
+
+Once the server responds, handle the data appropriately, typically by updating the webpage dynamically.

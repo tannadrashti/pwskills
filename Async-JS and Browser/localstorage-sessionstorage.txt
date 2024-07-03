@@ -1,0 +1,60 @@
+Purpose of localStorage and sessionStorage
+
+localStorage:
+Persistence: localStorage is designed to store data that persists even after the browser is closed and reopened. 
+This makes it ideal for data that needs to be available across browser sessions.
+
+Scope: Data stored in localStorage is shared across all tabs and windows of the same browser for the same domain.
+Use Cases: Storing user preferences, settings, application state, or any other data that should remain available until 
+explicitly deleted.
+
+sessionStorage:
+
+Persistence: sessionStorage is designed for data that needs to be stored temporarily and only for the duration of a page
+session. Once the browser or tab is closed, the data is cleared.
+
+Scope: Data stored in sessionStorage is specific to a single tab or window. It is not shared across different tabs or
+windows.
+Use Cases: Storing temporary data such as form data, progress, or any data that should only be available for the 
+duration of a single browsing session.
+
+Usage of localStorage:
+Example 1: Storing User Preferences
+Suppose you want to save the theme preference of a user (e.g., dark mode or light mode) and load it when they return to the site.
+
+HTML:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Theme Preference</title>
+</head>
+<body>
+  <button onclick="setTheme('dark')">Dark Mode</button>
+  <button onclick="setTheme('light')">Light Mode</button>
+  <script src="script.js"></script>
+</body>
+</html>
+
+Usage of sessionStorage:
+Example 1: Temporary Form Data Storage
+Imagine a scenario where a user fills out a multi-step form, and you want to save the data temporarily to avoid data 
+loss if they navigate away and come back to the form.
+
+HTML:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+</head>
+<body>
+  <form id="userForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <button type="button" onclick="saveFormData()">Save</button>
+    <button type="button" onclick="loadFormData()">Load</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+Promises and callbacks are both mechanisms used to handle asynchronous operations in JavaScript.
+However, Promises provide a more elegant, readable, and manageable way to handle such operations compared to traditional 
+callbacks. Here’s a detailed comparison between the two and why Promises are often preferred:
+
+
+Callbacks:
+Callbacks involve passing a function as an argument to another function, which is then invoked after 
+the asynchronous operation is complete. This often leads to deeply nested and hard-to-read code, commonly referred to as 
+"callback hell" or "pyramid of doom."
+
+function fetchData(callback) {
+  setTimeout(() => {
+    callback('data');
+  }, 1000);
+}
+
+fetchData(function(data) {
+  console.log(data);
+});
+
+
+Promises
+Promises provide a clearer and more structured way to handle asynchronous operations by allowing chaining and
+flattening of asynchronous calls, making the code more readable and manageable.
+
+function fetchData() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve('data');
+    }, 1000);
+  });
+}
+
+fetchData().then((data) => {
+  console.log(data);
+});

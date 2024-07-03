@@ -1,0 +1,24 @@
+The same-origin policy mandates that a web page can only make AJAX requests to a server if both the page and the server share the same origin. An origin is defined by the combination of:
+
+Protocol (e.g., http, https)
+Host (e.g., example.com)
+Port (e.g., 80 for http and 443 for https)
+Two URLs have the same origin if they have the same protocol, host, and port.
+
+
+Example of Same-Origin
+Same Origin: http://example.com/page1 and http://example.com/page2
+Different Origin: http://example.com and https://example.com (different protocol)
+Different Origin: http://example.com:8080 and http://example.com:9090 (different port)
+Different Origin: http://example.com and http://otherdomain.com (different host)
+Impact on AJAX Requests
+When making AJAX requests, the browser enforces the same-origin policy by only allowing requests to URLs with the same origin as the web page. If an AJAX request is made to a different origin, the browser will block the request unless explicitly allowed by the server.
+
+
+Working Around Same-Origin Policy:
+1. Cross-Origin Resource Sharing (CORS)
+CORS is a mechanism that allows servers to specify which origins are permitted to access resources. This is done by setting HTTP headers on the server side. Here’s how it works:
+
+The client sends an HTTP request to the server.
+The server includes CORS headers in its response to indicate which domains are allowed to access the resource.
+The browser checks these headers and allows or denies the request based on the server’s policy.
