@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css"
+      rel="stylesheet">
+    <style>
+    .correct { background-color: #38a169; }
+    .incorrect { background-color: #e53e3e; }
+  </style>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white shadow-md rounded-lg w-full max-w-lg p-6">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <div class="mt-4">
+        <button id="restart-btn"
+          class="hidden bg-blue-500 text-white py-2 px-4 rounded">Restart
+          Quiz</button>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
