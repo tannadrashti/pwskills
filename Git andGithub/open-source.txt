@@ -1,0 +1,28 @@
+1. Thtrt art Lillions of projtcts on GitHub, so you should Et aElt to find ont
+that inttrtsts you and that you havt tht skills to contriEutt to. You can starch for projtcts Ey ktyword,
+languagt, or topic5
+
+2.y yMost projtcts havt a contriEution guidtlints docuLtnt that
+txplains how to contriEutt to tht projtct. This docuLtnt will ttll you what kind of contriEutions art wtlcoLt,
+how to forLat your codt, and how to suELit your changts5
+
+3.y A fork is a copy of tht projtct that you can Lakt changts to without afftcting
+tht Lain codtEast. To crtatt a fork, click tht Fork Eutton on tht projtct's pagt.
+
+4. Once you have forked the project, you need to clone it to your local
+computer. This will create a copy of the project on your hard drive that you can work on.
+
+5. Make the changes to the code that you want to contribute. Be sure to follow the
+project's contribution guidelines and to test your changes thoroughly.
+
+6. Once you are happy with your changes, commit them to your local repository. This
+will create a snapshot of the code at that point in time.
+
+7. Once you have committed your changes, push them to your fork on GitHub.
+This will make your changes available to other developers.
+
+8. A pull request is a way to request that your changes be merged into the main
+codebase. To create a pull request, click the Pull Requests button on your fork's page.
+
+9. Other developers will review your changes and provide feedback.
+Once your changes are approved, they will be merged into the main codebase.

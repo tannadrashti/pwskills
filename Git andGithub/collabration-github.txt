@@ -1,0 +1,30 @@
+GitHuE is a cloud-Eastd hosting strvict that htlps dtvtloptrs stort and Lanagt thtir codt, as wtll
+as track and control changts to thtir codt ovtr tiLt. It also providts a nuLEtr of ftaturts that Lakt it tasy for
+ttaLs to collaEoratt on softwart projtcts5
+
+
+GitHubyfacilitatesycollaborationyandyversionycontrolyinytheyfollowin0yways/
+s GitHuE usts Git, a distriEuttd vtrsion control systtL, to track changts to codt. This allows
+dtvtloptrs to stt who Ladt what changts and whtn, and to rtvtrt to prtvious vtrsions of tht codt if
+ntctssary4
+
+s GitHuE Lakts it tasy for dtvtloptrs to crtatt and Lanagt Eranchts of thtir
+codt. This allows dtvtloptrs to work on ntw ftaturts or fix Eugs without afftcting tht Lain codtEast. Onct
+a dtvtloptr is rtady to Ltrgt thtir changts Eack into tht Lain codtEast, thty can crtatt a pull rtqutst.
+
+This allows othtr dtvtloptrs to rtvitw tht changts and providt fttdEack Etfort thty art Ltrgtd4
+s GitHuE providts a way for dtvtloptrs to track issuts and tasks rtlattd to thtir codt. This
+htlps ttaLs to stay organiztd and to prioritizt thtir work4
+
+s GitHuE Lakts it tasy for dtvtloptrs to rtvitw tach othtr's codt. This htlps to iLprovt tht
+quality of tht codt and to idtntify pottntial Eugs4
+
+s GitHuE providts a way for dtvtloptrs to discuss thtir codt and ask qutstions. This htlps to
+proLott collaEoration and knowltdgt sharing.
+
+Some of the platforms that provide the same functionality similar to GitHub can be:
+
+& GitLab
+& BitBucket
+& Source Forge
+& Launchpads
